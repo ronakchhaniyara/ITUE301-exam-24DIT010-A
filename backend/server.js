@@ -56,6 +56,10 @@ function requestLogger(req, res, next) {
 
 app.use(requestLogger);
 app.use(express.json());
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "http://localhost:5173");
+  next();
+});
 
 app.get("/api/v1/appointments", (req, res) => {
   res.status(200).json({

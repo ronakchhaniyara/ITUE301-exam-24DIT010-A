@@ -6,3 +6,33 @@
   VITE v5.4.21  ready in 426 ms
 
   ➜  Local:   http://127.0.0.1:5173/
+3:13:17 pm [vite] hmr update /src/App.jsx
+3:13:17 pm [vite] hmr update /src/App.css
+3:13:17 pm [vite] hmr update /src/components/AppointmentCard.jsx
+3:13:17 pm [vite] hmr update /src/pages/HomePage.jsx
+3:13:17 pm [vite] hmr update /src/pages/DoctorsPage.jsx
+3:13:17 pm [vite] hmr update /src/pages/BookingPage.jsx
+3:13:17 pm [vite] hmr update /src/index.css
+3:13:26 pm [vite] hmr update /src/App.jsx
+3:13:26 pm [vite] hmr update /src/index.css
+3:13:26 pm [vite] hmr update /src/App.css
+3:13:26 pm [vite] hmr update /src/components/AppointmentCard.jsx
+3:13:26 pm [vite] hmr update /src/pages/BookingPage.jsx
+3:13:26 pm [vite] hmr update /src/pages/DoctorsPage.jsx
+3:13:26 pm [vite] hmr update /src/pages/HomePage.jsx
+3:17:11 pm [vite] page reload src/main.jsx
+3:17:12 pm [vite] hmr update /src/App.jsx
+3:17:13 pm [vite] hmr update /src/pages/BookingPage.jsx
+3:17:14 pm [vite] hmr update /src/App.css
+3:17:15 pm [vite] ✨ new dependencies optimized: react-router-dom
+3:17:15 pm [vite] ✨ optimized dependencies changed. reloading
+3:23:18 pm [vite] hmr update /src/App.css
+3:23:18 pm [vite] hmr update /src/pages/BookingPage.jsx
+3:23:18 pm [vite] hmr update /src/App.jsx
+3:23:18 pm [vite] page reload src/main.jsx
+3:23:18 pm [vite] hmr update /src/components/Navigation.jsx
+3:23:27 pm [vite] hmr update /src/App.css
+3:23:27 pm [vite] hmr update /src/pages/BookingPage.jsx
+3:23:27 pm [vite] hmr update /src/App.jsx
+3:23:27 pm [vite] page reload src/main.jsx
+3:23:27 pm [vite] hmr update /src/components/Navigation.jsx
