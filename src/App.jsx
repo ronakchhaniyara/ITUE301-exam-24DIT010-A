@@ -1,4 +1,6 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Navigation from "./components/Navigation.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import DoctorsPage from "./pages/DoctorsPage.jsx";
 import BookingPage from "./pages/BookingPage.jsx";
@@ -36,15 +38,19 @@ export default function App() {
           <h1>Hospital Appointment System</h1>
         </div>
         <p className="app-header__text">
-          Task 1 frontend component architecture using React components and
-          props.
+          Task 2 routing and local form state using React Router and controlled
+          inputs.
         </p>
       </header>
 
+      <Navigation />
+
       <main className="app-main">
-        <HomePage appointments={sampleAppointments} />
-        <DoctorsPage />
-        <BookingPage />
+        <Routes>
+          <Route path="/" element={<HomePage appointments={sampleAppointments} />} />
+          <Route path="/doctors" element={<DoctorsPage />} />
+          <Route path="/booking" element={<BookingPage />} />
+        </Routes>
       </main>
     </div>
   );
