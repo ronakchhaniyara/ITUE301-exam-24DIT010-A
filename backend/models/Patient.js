@@ -14,7 +14,7 @@ const patientSchema = new mongoose.Schema(
     phone: String,
     bloodGroup: {
       type: String,
-      enum: ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"]
+      enum: ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-", "O"]
     },
     age: Number
   },
