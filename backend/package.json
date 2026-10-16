@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "start:task5": "node mongodb-server.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^5.2.1",
+    "express": "^4.21.0",
     "mongoose": "^8.19.1"
   }
 }
